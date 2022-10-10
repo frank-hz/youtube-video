@@ -1,0 +1,17 @@
+{
+  "name": "youtube-video",
+  "version": "1.0.0",
+  "description": "download video from youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js"
+  },
+  "author": "Sodadev",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "ytdl-core": "^4.11.2"
+  }
+}
